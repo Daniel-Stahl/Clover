@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   	resources :episodes
   end
 
-  authenticated :podcasts do 
+  authenticated :podcast do 
   	root 'podcasts#dashboard', as: "authenticated_root"
   end
 
