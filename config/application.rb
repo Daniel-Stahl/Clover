@@ -21,6 +21,9 @@ module Clover
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
+    
+    Paperclip::Attachment.default_options[:use_timestamp] = false
+
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
