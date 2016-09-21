@@ -16,3 +16,7 @@
 !/log/.keep
 /tmp
 /public/system
+
+# Ignore Environment Configuration Files
+config/database.yml
+.env
