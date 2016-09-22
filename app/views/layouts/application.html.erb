@@ -9,7 +9,7 @@
 <body>
 
 <% if alert %>
-	<div id="notice_wrapper">
+	<div id="alert_wrapper">
 		<p class="alert"><%= alert %></p>
 	</div>
 <% elsif notice %>
@@ -28,7 +28,7 @@
 <script>
 	$(document).ready(function() {
 	setTimeout(function() {
-		$('#notice_wrapper').fadeOut("slow", function() {
+		$('#notice_wrapper, #alert_wrapper').fadeOut("slow", function() {
 			$this.remove();
 		});
 	}, 4000 );
