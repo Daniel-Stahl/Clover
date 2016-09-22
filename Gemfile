@@ -27,7 +27,7 @@ gem 'devise', '~> 4.2'
 gem 'paperclip' #, :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
 gem 'aws-sdk'
 gem 'rails_12factor', group: :production
-
+gem "font-awesome-sass"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
